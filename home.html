@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danny Okec</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/icon/dannyokec-logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="hero" class="h-screen">
+        <div class="w-full h-screen hero-opac">
+            <div class="py-10 px-6 md:px-24">
+                <nav class="flex justify-between">
+                    <div>
+                        <a href="/home.html">
+                            <img class="-mt-3 md:-mt-4 h-8 md:h-12" src="/assets/icon/dannyokec-logo.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <div class="mb:hidden lg:hidden">
+                            <input type="checkbox" id="active">
+                            <label for="active" class="menu-btn"><span></span></label>
+                            <label for="active" class="close"></label>
+                            <div class="wrapper">
+                                <ul>
+                                    <li><a href="#">ABOUT</a></li>
+                                    <li><a href="#">SERVICES</a></li>
+                                    <li><a href="#">PORTFOLIO</a></li>
+                                    <li><a href="#">BLOG</a></li>
+                                    <li><a href="#">CONTACT</a></li>
+                                    <li><a href="/signin.html">SIGNIN</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    <div class="hidden mb:hidden lg:block">
+                        <a class="text-white mx-4" href="">ABOUT US</a>
+                        <a class="text-white mx-4" href="">SERVICES</a>
+                        <a class="text-white mx-4" href="">PORTFOLIO</a>
+                        <a class="text-white mx-4" href="">BLOG</a>
+                        <a class="text-white mx-4" href="">CONTACT</a>
+                        <a class="bg-yellow-500 py-2 px-8 text-white mx-4" href="/signin.html">SIGN IN</a>
+                    </div>
+                </nav>
+                <div class="mt-8 md:mt-20 md:mt-20 lg:mt-28">
+                    <p class="poppins font-semibold text-white text-3xl md:text-5xl lg:text-5xl md:w-3/4 lg:w-2/4 pl-4 md:pl-20 lg:pl-32 leading-tight">We Program & Develop Websites and <span class="text-blue-400"> Smart Artificial Intelligence </span>  </p>
+                </div>
+                <div>
+                    <p class="border-l-2 border-white text-white py-6 md:py-10 pl-4 md:pl-20 lg:pl-32 text-2xsm md:text-md w-3/5 lg:w-2/6">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo mag
+                    </p>
+                </div>
+                <div class="flex justify-between mt-10">
+                    <div>
+                        <p class="vertical-text text-white poppins text-3xsm text-gray -mt-4 -ml-2 ">SCROLL DOWN</p>
+                    </div>
+                    <div>
+                        <div class="float-right mb-2 md:mb-4">
+                            <a href=""><i class="fab fa-twitter text-white mr-3 text-3xsm py-1 md:py-2"></i></a> <br>
+                            <a href=""><i class="fab fa-facebook text-white mr-3 text-3xsm py-1 md:py-2"></i></a> <br>
+                            <a href=""><i class="fab fa-whatsapp text-white mr-3 text-3xsm py-1 md:py-2"></i></a> <br>
+                            <a href=""><i class="fab fa-instagram text-white mr-3 text-3xsm py-1 md:py-2"></i></a> 
+                        </div>
+                        <div class="">
+                            <img src="/assets/contact.png" class="h-8 md:h-12" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <article>
+            <div class="py-10 md:py-20 lg:px-8">
+                <div class="md:flex justify-around">
+                    <div class="px-10 md:mx-20 w-full md:w-2/5 lg:w-1/5">
+                        <p class="manrope font-extrabold font-medium tracking-widest text-blue">About Us</p>
+                        <p class="text-darkblue manrope font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-8">Skills & Experience</p>
+                        <p class="text-darkblue poppins text-sm my-10">We are obsessed with making things and even more obsessed with making things better. Dannyokec Company have been in the business of creating and innovating for years. We have been actively involved in the web and software development for the last 10 years. </p>
+                        <button class="mt-10 button-grad poppins font-bold text-sm px-4 py-2">FIND OUT MORE <span class="text-gray">dd</span>    <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    </div>
+                    <div>
+                        <img src="/assets/skills-dialog.png" class="px-8 md:px-6 my-6" alt="">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="hidden md:flex justify-around mt-24 mb-8">
+                            <img class="filter grayscale h-8 " src="/assets/icon/node.png" alt="">
+                            
+                            <img class="filter grayscale h-8" src="/assets/icon/python.png" alt="">
+                            
+                            <img class="filter grayscale h-8" src="/assets/icon/php.png" alt="">
+                            
+                            <img class="filter grayscale h-8" src="/assets/icon/flutter.png" alt="">
+                            <img class="filter grayscale h-8" src="/assets/icon/unity.png" alt="">
+                            
+                            <img class="filter grayscale h-8" src="/assets/icon/golang.png" alt="">
+                            
+                            <img class="filter grayscale h-8" src="/assets/icon/react.png" alt="">
+                        
+                    </div>
+                    <div class="md:hidden justify-around mt-24 mb-8">
+                        <div class="flex justify-around mb-8">
+                            <img class="filter grayscale h-6 " src="/assets/icon/node.png" alt="">
+                            
+                            <img class="filter grayscale h-6" src="/assets/icon/python.png" alt="">
+                            
+                            <img class="filter grayscale h-6" src="/assets/icon/php.png" alt="">
+                            
+                            <img class="filter grayscale h-6" src="/assets/icon/flutter.png" alt="">
+                        </div>
+                        <div class="flex justify-around ">
+                            <img class="filter grayscale h-6" src="/assets/icon/unity.png" alt="">
+                            
+                            <img class="filter grayscale h-6" src="/assets/icon/golang.png" alt="">
+                            
+                            <img class="filter grayscale h-6" src="/assets/icon/react.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="py-10 md:py-20 lg:px-8 bg-gray">
+                <div class="md:flex justify-around">
+                    <div class="px-10 md:px-2 md:mx-16 w-full md:w-2/5 lg:w-1/5 mb-8 md:mb-0">
+                        <p class="manrope font-extrabold font-medium tracking-widest text-blue">WHAT WE DO</p>
+                        <p class="text-darkblue manrope font-bold text-4xl md:text-5xl leading-tight mb-8">Transforming Your <span class="poppins font-bold">ideas</span> into reality</p>
+                        <p class="text-darkblue poppins text-sm my-10">We help ambitious business like you to generate more profit by building awareness, drive web traffic, look unique and exceptional, connecting with customers and growing overall sales</p>
+                        <button class="mt-2 button-grad poppins font-bold text-sm px-4 py-2">FIND OUT MORE <span class="text-gray">dd</span>    <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="px-10 md:px-0">
+                        <img src="/assets/line.png" alt="">
+                        <div class="flex my-10">
+                            <div class="flex-shrink-0">
+                                <img src="/assets/icon/web-dev.png" alt="">
+                            </div>
+                            <div class="ml-4 md:ml-12 w-full">
+                                <p class="font-text-xlmd:medium poppins text-2xl mt-2 text-darkblue">Web</p>
+                                <div class="flex justify-between w-full">
+                                    <p class="font-medium poppins text-xlmd:text-2xl mt-2 text-darkblue">Development</p>
+                                    <p><i class="fa fa-arrow-right text-blue float-right"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="/assets/line.png" alt="">
+                        <div class="flex  my-10">
+                            <div class="flex-shrink-0">
+                                <img src="/assets/icon/automation.png" alt="">
+                            </div>
+                            <div class="ml-4 md:ml-12 w-full">
+                                <p class="font-medium poppins text-xlmd:text-2xl mt-2 text-darkblue">Digital</p>
+                                <div class="flex justify-between w-full">
+                                    <p class="font-medium poppins text-xlmd:text-2xl mt-2 text-darkblue">Automation </p>
+                                    <p><i class="fa fa-arrow-right text-blue float-right"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="/assets/line.png" alt="">
+                        <div class="flex my-10">
+                            <div class="flex-shrink-0">
+                                <img src="/assets/icon/Ai.png" alt="">
+                            </div>
+                            <div class="ml-4 md:ml-12  w-full">
+                                <p class="font-medium poppins text-xlmd:text-2xl mt-2 text-darkblue">Artificial</p>
+                                <div class="flex justify-between w-full">
+                                    <p class="font-medium poppins text-xlmd:text-2xl mt-2 text-darkblue">Intelligence</p>
+                                    <p><i class="fa fa-arrow-right text-blue float-right"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="/assets/line.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="hero">
+            <div class="hero-opac">
+                <div class="py-20">
+                    <p class="manrope font-medium text-3xl text-white text-center mb-4">Want to Develop A Custom Software Solution?</p>
+                    <div class="text-center">
+                        <button class="button-blue text-center text-white py-4 px-20 poppins text-md font-medium mt-6">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="px-10 md:px:28 lg:px-60">
+                <div class="flex justify-between py-10 md:py-20 ">
+                    <div>
+                        <p class="manrope font-extrabold font-medium tracking-widest text-blue">OUR PROJECTS</p>
+                        <p class="text-darkblue manrope font-medium text-5xl leading-tight mb-4">Latest Works</p>
+                    </div>
+                    <div class="flex">
+                        <div class="p-2 px-4 mx-1 border-1 border-blue h-10"><img src="/assets/icon/lesser.png" alt=""></div>
+                        <div class="p-2 px-4 mx-1 border-1 border-blue h-10"><img src="/assets/icon/greater.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="flex ">
+                    <div class="border-b-4 w-full border-blue">
+                        <p class="text-center manrope p-3">Development</p>
+                    </div>
+                    <div class="border-b-2 w-full border-gray">
+                        <p class="text-center manrope p-3">Automation</p>
+                    </div>
+                    <div class="border-b-2 w-full border-gray">
+                        <p class="text-center manrope p-3">Artificial Intelligence</p>
+                    </div>
+                </div>
+                <div class="md:flex justify-around mx-5 md:mx-20 mb-10 mt-12">
+                    <div class=" px-3 py-6 rounded-xl border-1 border-gray shadow-lg ">
+                        <img class="" src="/assets/realnaps.png" alt="">
+                        <div class="flex justify-between mt-4 mx-2">
+                            <div>
+                                <p class="manrope font-bold text-2xl">Realnaps</p>
+                                <p class="manrope text-3xsm text-gray-400">Virtual football</p>
+                            </div>
+                            <div>
+                                <div class="rounded-lg p-1 px-3 button-blue mt-2">
+                                    <i class="fa fa-arrow-right text-white text-2xsm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="md:mx-16 px-3 py-6 rounded-xl border-1 border-gray shadow-lg ">
+                        <img class="" src="/assets/duce.png" alt="">
+                        <div class="flex justify-between mt-4 mx-2">
+                            <div>
+                                <p class="manrope font-bold text-2xl">Duce Bot</p>
+                                <p class="manrope text-3xsm text-gray-400">Virtual football</p>
+                            </div>
+                            <div>
+                                <div class="rounded-lg p-1 px-3 button-blue mt-2">
+                                    <i class="fa fa-arrow-right text-white text-2xsm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class=" px-3 py-6 rounded-xl border-1 border-gray shadow-lg ">
+                        <img class="" src="/assets/tours.png" alt="">
+                        <div class="flex justify-between mt-4 mx-2">
+                            <div>
+                                <p class="manrope font-bold text-2xl">T&Tour</p>
+                                <p class="manrope text-3xsm text-gray-400">Virtual football</p>
+                            </div>
+                            <div>
+                                <div class="rounded-lg p-1 px-3 button-blue mt-2">
+                                    <i class="fa fa-arrow-right text-white text-2xsm"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="">
+                <div class="flex justify-between bg-gray py-10 md:py-28 lg:px-60 px-8 md:px-0">
+                    <div>
+                        <p class="manrope font-extrabold font-medium tracking-widest text-blue">MEET THE TEAM</p>
+                        <p class="text-darkblue manrope font-medium text-5xl leading-tight mb-8">Our Experts</p>
+                    </div>
+                    <div class="flex">
+                        <div class="p-1 px-2 md:p-2 md:px-4 mx-1 border-1 border-blue h-8 md:h-10"><img src="/assets/icon/lesser.png" alt=""></div>
+                        <div class="p-1 px-2 md:p-2 md:px-4 mx-1 border-1 border-blue h-8 md:h-10"><img src="/assets/icon/greater.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="md:flex justify-around md:mx-60 mb-10 px-8 md:px-0">
+                    <div class="md:mr-10 ">
+                        <img class="mb-6 md:mb-0 md:-mt-16" src="/assets/danny.png" alt="">
+                    </div>
+                    
+                    <div class="md:mx-10 ">
+                        <img class="mb-6 md:mb-0 md:-mt-16" src="/assets/spencer.png" alt="">
+                    </div>
+                    
+                    <div class="md:ml-10 ">
+                        <img class="mb-6 md:mb-0 md:-mt-16" src="/assets/riodan.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        
+        <article>
+            <div class="bg-gray py-28">
+                <div class="text-center">
+                    <p class="manrope font-extrabold font-medium tracking-widest text-blue">TESTIMONIALS</p>
+                    <p class="text-darkblue manrope font-medium text-5xl leading-tight mb-8">Clients Say</p>
+                </div>
+                <div class="md:flex justify-around">
+                    <div class="mb-6 md:mb-0">
+                        <img src="/assets/testimony1.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <img src="/assets/testimony2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article id="project-count">
+            <div class="hero-opac">
+                <div class="flex justify-around py-20">
+                    <div class="text-center">
+                        <p class="poppins text-white font-medium text-2xl md:text-4xl mb-4">8</p>
+                        <p class="manrope text-white font-medium text-2xsm md:text-xl">Happy Clients</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="poppins text-white font-medium text-2xl md:text-4xl mb-4">4</p>
+                        <p class="manrope text-white font-medium text-2xsm md:text-xl">Finished projects</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="poppins text-white font-medium text-2xl md:text-4xl mb-4">5</p>
+                        <p class="manrope text-white font-medium text-2xsm md:text-xl">Skills Experts</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="poppins text-white font-medium text-2xl md:text-4xl mb-4">100</p>
+                        <p class="manrope text-white font-medium text-2xsm md:text-xl">Media Posts</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="py-28">
+                <div class="text-center">
+                    <p class="text-darkblue manrope font-bold text-5xl leading-tight mb-8">Blog</p>
+                </div>
+                <div class="md:flex justify-around md:mx-40">
+                    <div class="mb-6 md:mb-0">
+                        <img class="mx-auto" src="/assets/blog1.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <img class="mx-auto" src="/assets/blog2.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <img class="mx-auto" src="/assets/blog3.png" alt="">
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="button-blue text-center text-white py-4 px-20 poppins text-md font-medium mt-6">See all</button>
+                </div>
+            </div>
+
+        </article>
+        <article id="contact-us-hero">
+            <div class="px-8 md:px-24 lg:px-40 py-28">
+                <p class="text-center poppins text-deepblue font-semibold">GET IN TOUCH WITH US</p>
+                <P class="text-center poppins font-semibold text-5xl my-2 mb-12">Contact us</P>
+    
+                <form  class="px-4 md:px-24 lg:px-32" action="">
+                    <input type="text" class="border-0 bg-white placeholder-gray-400 px-4 py-4 w-full contact-input my-2" placeholder="Full Name">
+                    <div class="flex my-2">
+                        <input type="text" class="border-0 bg-white placeholder-gray-400 px-4 py-4 w-full contact-input mr-2" placeholder="Email Address">
+                        <input type="text" class="border-0 bg-white placeholder-gray-400 px-4 py-4 w-full contact-input ml-2" placeholder="Phone Number">
+                    </div>
+                    <textarea class="border-0 bg-white placeholder-gray-400 px-4 py-4 w-full contact-input my-2" name="" id="" cols="30" rows="10" placeholder="Leave a Message"></textarea>
+                    <div class="text-center">
+                        <button class="button-blue text-center text-white px-8 py-2 md:py-4 md:px-20 poppins text-md md:text-lg font-medium mt-6">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+        </article>
+
+    </section>
+    <footer class="footer-background-color py-12 px-4 md:px-12 lg:px-24">
+        <div class="md:flex justify-around mb-6 md:mb-12">
+            <div class="mb-10 md:mb-0">
+                <p class="footer-orange poppins font-light mb-8">Stay in touch!</p>
+                <input class="email-input border-1 px-4 py-2 border-white" placeholder="Email"  type="text">
+                <button class="bg-white text-2xsm px-4 py-3 -ml-1 -mt-2 border-2 border-white poppins" style="padding-top: 12px; padding-bottom: 8px" ><b>SEND</b> </button>
+            </div>
+            <div class="mb-10 md:mb-0">
+                <p class="footer-orange poppins font-light">Quick links</p>
+                <p class="text-white my-4"><a class="poppins font-light text-sm" href="">Artificial Intelligence</a></p> 
+                <p class="text-white my-4"><a class="poppins font-light text-sm" href="">Dannyokec Academy</a></p>
+            </div>
+            <div class="mb-10 md:mb-0">
+                <p class="footer-orange poppins font-light">Legal</p>
+                <p class="text-white my-4"><a class="poppins font-light text-sm" href="">Terms & Conditions</a></p> 
+                <p class="text-white my-4"><a class="poppins font-light text-sm" href="">Privacy Policy</a></p>
+            </div>
+            <div class="mb-10 md:mb-0">
+                <p class="footer-orange poppins font-light">Company</p>
+                <p class="text-white my-4"><a class="poppins font-light text-sm" href="">About Us</a></p> 
+                <p class="text-white my-4"><a class="poppins font-light text-sm" href="">Copyright</a></p>
+            </div>
+            <div class="">
+                <p class="footer-orange poppins font-light  mb-4">Follow Us</p>
+                <a href=""><i class="fab fa-twitter text-white mr-3 text-xl"></i></a> 
+                <a href=""><i class="fab fa-facebook text-white mr-3 text-xl"></i></a> 
+                <a href=""><i class="fab fa-whatsapp text-white mr-3 text-xl"></i></a> 
+                <a href=""><i class="fab fa-instagram text-white mr-3 text-xl"></i></a> 
+            </div>
+        </div>
+        <div class="">
+            <hr style="display: block; height: 0.1px;
+            border: 0; border-top: 1px solid #ccc;
+            margin: 1em 0; padding: 0;">
+            <p id="footer" class="text-center text-white poppins font-light text-sm mt-10"></p>
+        </div>
+        
+    </footer>
+</body>
+<script>
+    let date = new Date().getFullYear()
+    let footerText = document.getElementById("footer")
+    footerText.innerText = `Copyright @ ${date} DannyOkec. All Right Reserved`
+</script>
+</html>
